@@ -10,7 +10,12 @@
     <ItemGroup>
       <ProjectReference Include="..\GuessTheNumber.Abstractions\GuessTheNumber.Abstractions.csproj" />
       <ProjectReference Include="..\GuessTheNumber.Application\GuessTheNumber.Application.csproj" />
+      <ProjectReference Include="..\GuessTheNumber.Dal.Abstractions\GuessTheNumber.Dal.Abstractions.csproj" />
       <ProjectReference Include="..\GuessTheNumber.Domain\GuessTheNumber.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Services\" />
     </ItemGroup>
 
 </Project>

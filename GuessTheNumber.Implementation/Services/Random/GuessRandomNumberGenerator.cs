@@ -1,6 +1,6 @@
 ﻿using GuessTheNumber.Abstractions.Interfaces;
 
-namespace GuessTheNumber.Infrastructure.Random;
+namespace GuessTheNumber.Implementation.Services.Random;
 
 public class GuessRandomNumberGenerator : IGuessRandomNumberGenerator
 {

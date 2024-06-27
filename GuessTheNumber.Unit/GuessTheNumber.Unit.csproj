@@ -20,7 +20,6 @@
     <ItemGroup>
       <ProjectReference Include="..\GuessTheNumber.Abstractions\GuessTheNumber.Abstractions.csproj" />
       <ProjectReference Include="..\GuessTheNumber.Implementation\GuessTheNumber.Implementation.csproj" />
-      <ProjectReference Include="..\GuessTheNumber.Infrastructure\GuessTheNumber.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

@@ -16,24 +16,36 @@ public class GuessTheNumberController : ControllerBase
     }
 
     /// <summary>
-    /// Метод для того чтобы задать правила игры
+    /// Метод для того чтобы задать правила игры, он создает сессию игры и сохраняет в SqlLite, в любое время можно подключиться к этой сессии
     /// </summary>
     /// <param name="request">Реквест, в котором хранятся правила игры</param>
+    /// <param name="cancellationToken">Токен отмены</param>
     /// <returns></returns>
     /// <response code="200">Успешное выполнение, игра создается с выбранными настройками</response>
     [Route("initialize")]
     [HttpPost]
-    public IActionResult InitializeGame(InitializeGameRequest request)
+    public async Task<IActionResult> InitializeGame([FromBody] InitializeGameRequest request,
+        CancellationToken cancellationToken)
     {
-        _gameManager.InitializeGame(request);
-        return Ok("Игра начата. Начинайте угадывать число Угадайте число.");
+        var sessionId = await _gameManager.InitializeGame(request, cancellationToken);
+        return Ok($"Игра начата. Начинайте угадывать число, Ваша сессия - {sessionId}.");
     }
 
-    [Route("guess")]
+    /// <summary>
+    /// Метод, который угадывает номер в определенной сессии
+    /// </summary>
+    /// <param name="sessionId">Id Сессии</param>
+    /// <param name="guessedNumber">Преполагаемое число</param>
+    /// <param name="cancellationToken">Токен отмены</param>
+    /// <returns></returns>
+    /// <response code="200">Успешное выполнение, игра начнется</response>
+    [Route("guess/{sessionId:guid}")]
     [HttpGet]
-    public IActionResult GuessNumber(int number)
+    public async Task<IActionResult> GuessNumber([FromRoute] Guid sessionId, [FromQuery] int guessedNumber,
+        CancellationToken cancellationToken)
     {
-        var result = _gameManager.GuessNumber(number);
+        var result = await _gameManager.GuessNumber(sessionId, guessedNumber, cancellationToken);
+
         return Ok(result);
     }
 }

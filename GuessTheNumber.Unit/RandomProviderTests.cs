@@ -1,5 +1,5 @@
 ﻿using GuessTheNumber.Abstractions.Interfaces;
-using GuessTheNumber.Infrastructure.Random;
+using GuessTheNumber.Implementation.Services.Random;
 
 namespace GuessTheNumber.Unit;
 
