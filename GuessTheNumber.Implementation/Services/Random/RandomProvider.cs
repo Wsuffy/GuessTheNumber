@@ -1,4 +1,4 @@
-﻿namespace GuessTheNumber.Infrastructure.Random;
+﻿namespace GuessTheNumber.Implementation.Services.Random;
 
 public class RandomProvider
 {

@@ -1,4 +1,4 @@
-namespace GuessTheNumber.Abstractions.Enums;
+namespace GuessTheNumber.Application.Models.Enums;
 
 public enum GuessResult
 {
