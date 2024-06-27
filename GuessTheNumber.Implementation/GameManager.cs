@@ -21,7 +21,8 @@ public class GameManager : IGameManager
     {
         var targetValue = _randomNumberGenerator.Generate(request.LeftBorder, request.RightBorder);
 
-        _settings = new GameSettings(targetValue, request.AttemptCount);
+        var settings = new GameSettings(targetValue, request.AttemptCount);
+        _settings = settings;
     }
 
     public string GuessNumber(int userGuess)
