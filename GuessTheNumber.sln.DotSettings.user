@@ -1,0 +1,18 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\skade\AppData\Local\JetBrains\Rider2024.1\resharper-host\temp\Rider\vAny\CoverageData\_GuessTheNumber.-1173958279\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4c499c8b_002D9265_002D45a2_002D94a7_002D243a2e19fe84/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetTargetValue_ReturnsCorrectValue_WithoutInitialization" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Users\skade\RiderProjects\GuessNumber.Core\GuessTheNumber.Unit" Presentation="&amp;lt;GuessTheNumber.Unit&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bf5b6a17_002Dcbc1_002D4c1b_002D857e_002Db77b681e6587/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;And&gt;&#xD;
+    &lt;Namespace&gt;GuessTheNumber.Unit&lt;/Namespace&gt;&#xD;
+    &lt;Project Location="C:\Users\skade\RiderProjects\GuessNumber.Core\GuessTheNumber.Unit" Presentation="&amp;lt;GuessTheNumber.Unit&amp;gt;" /&gt;&#xD;
+  &lt;/And&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ce6c3e07_002D3384_002D4c6b_002D9627_002Deb432dcfc008/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GuessNumber_ShouldReturnCorrectResult_WhenGuessIsCorrect" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::1BC0FBFC-2ACD-49E6-BFC7-FB8624B86FFA::net8.0::GuessTheNumber.Unit.GameManagerTests.GuessNumber_ShouldReturnCorrectResult_WhenGuessIsCorrect&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

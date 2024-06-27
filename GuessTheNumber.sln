@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumber.Abstractions", "GuessTheNumber.Abstractions\GuessTheNumber.Abstractions.csproj", "{36A7615B-B3C9-4D96-934A-4A4BAB53B72B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumber.Implementation", "GuessTheNumber.Implementation\GuessTheNumber.Implementation.csproj", "{439F5DC7-E7AE-4BD1-8DCA-12EFF75DE9C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumber.Host", "GuessTheNumber.Host\GuessTheNumber.Host.csproj", "{145F3C86-2002-4E50-97C9-5181CB502764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumber.Application", "GuessTheNumber.Application\GuessTheNumber.Application.csproj", "{5F8BFC20-D582-4EF7-9DB2-7391C3A182EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumber.Domain", "GuessTheNumber.Domain\GuessTheNumber.Domain.csproj", "{05D65BC9-00AF-4405-B1B4-281A5C8128C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumber.Infrastructure", "GuessTheNumber.Infrastructure\GuessTheNumber.Infrastructure.csproj", "{041A706E-A910-457C-8E78-470BB0181CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessTheNumber.Unit", "GuessTheNumber.Unit\GuessTheNumber.Unit.csproj", "{1BC0FBFC-2ACD-49E6-BFC7-FB8624B86FFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36A7615B-B3C9-4D96-934A-4A4BAB53B72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A7615B-B3C9-4D96-934A-4A4BAB53B72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A7615B-B3C9-4D96-934A-4A4BAB53B72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A7615B-B3C9-4D96-934A-4A4BAB53B72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{439F5DC7-E7AE-4BD1-8DCA-12EFF75DE9C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439F5DC7-E7AE-4BD1-8DCA-12EFF75DE9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439F5DC7-E7AE-4BD1-8DCA-12EFF75DE9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439F5DC7-E7AE-4BD1-8DCA-12EFF75DE9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{145F3C86-2002-4E50-97C9-5181CB502764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145F3C86-2002-4E50-97C9-5181CB502764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145F3C86-2002-4E50-97C9-5181CB502764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145F3C86-2002-4E50-97C9-5181CB502764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8BFC20-D582-4EF7-9DB2-7391C3A182EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8BFC20-D582-4EF7-9DB2-7391C3A182EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8BFC20-D582-4EF7-9DB2-7391C3A182EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8BFC20-D582-4EF7-9DB2-7391C3A182EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D65BC9-00AF-4405-B1B4-281A5C8128C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D65BC9-00AF-4405-B1B4-281A5C8128C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D65BC9-00AF-4405-B1B4-281A5C8128C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D65BC9-00AF-4405-B1B4-281A5C8128C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041A706E-A910-457C-8E78-470BB0181CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041A706E-A910-457C-8E78-470BB0181CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041A706E-A910-457C-8E78-470BB0181CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041A706E-A910-457C-8E78-470BB0181CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC0FBFC-2ACD-49E6-BFC7-FB8624B86FFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC0FBFC-2ACD-49E6-BFC7-FB8624B86FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC0FBFC-2ACD-49E6-BFC7-FB8624B86FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC0FBFC-2ACD-49E6-BFC7-FB8624B86FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
